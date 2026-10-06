@@ -1,7 +1,7 @@
 ﻿@echo off
 title LightX Mobile Automation Runner
 echo ========================================================
-echo   LightX MOBILE AUTOMATION SUITE (ANDROID & IOS)
+echo       LIGHTX MOBILE AUTOMATION SUITE (ANDROID & IOS)
 echo ========================================================
 echo 1. Activating Virtual Environment...
 call venv\Scripts\activate.bat
@@ -14,4 +14,3 @@ echo 3. Opening Mobile HTML Execution Report in Browser...
 echo ========================================================
 start reports\mobile_report.html
 pause
-

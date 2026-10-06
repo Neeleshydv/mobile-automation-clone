@@ -30,7 +30,7 @@ class MockAppiumDriver:
     """
     High-fidelity emulation driver implementing Appium WebDriver API.
     Guarantees reliable, ultra-fast test execution on Windows without requiring
-    a live connected physical device or running emulator during interview demos.
+    a live connected physical device or running emulator during test runs.
     """
     def __init__(self, platform_name="android"):
         self.platform_name = platform_name
